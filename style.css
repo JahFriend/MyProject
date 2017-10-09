@@ -1,0 +1,45 @@
+body {
+  background-color: #DFE2DB;
+}
+
+#picture{
+  float: right;
+  height: 200;
+  width: 180;
+  overflow: auto;
+  position: relative;
+  -webkit-compon
+  -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+
+}
+ #Name{
+  border-bottom: solid;
+  padding-bottom: 0px;
+  position: relative;
+  overflow: auto;
+}
+#Education,#Skills,#Experience,#Hobbies,#Refernces{
+  display: inline;
+  float:left;
+  margin-right: 10px;
+
+  height: 150px;
+  width: 100px;
+  border-right:solid;
+  font-size: 20px;
+  position: relative;
+  overflow: auto;
+  margin-right: 20px;
+}
+
+
+
+
+
+.part1,.part2,.Writing1,.part3,.part4{
+  clear:both;
+  overflow: auto;
+
+}
